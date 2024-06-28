@@ -1,0 +1,12 @@
+@config "./tailwind.config.js";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.color-input::-webkit-color-swatch-wrapper {
+  display: none;
+}
+.color-input::-webkit-color-picker-indicator {
+  display: none;
+}
