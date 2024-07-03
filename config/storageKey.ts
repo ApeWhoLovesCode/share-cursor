@@ -1,3 +1,5 @@
 export const DEFAULT_PREFIX = "my-cursor"
-export const MY_SELF_KEY = DEFAULT_PREFIX + '-' + "my-self"
-export const ROOM_KEY = DEFAULT_PREFIX + '-' + "room"
+export const CUR_URL = DEFAULT_PREFIX + "-" + "cur-url"
+export const MY_SELF_KEY = DEFAULT_PREFIX + "-" + "my-self"
+export const OTHERS_KEY = DEFAULT_PREFIX + "-" + "others"
+export const ROOM_KEY = DEFAULT_PREFIX + "-" + "room"

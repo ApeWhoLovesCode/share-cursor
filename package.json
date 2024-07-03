@@ -1,9 +1,9 @@
 {
-  "name": "test-plasmo",
-  "displayName": "Test plasmo",
+  "name": "share-cursor",
+  "displayName": "Share cursor",
   "version": "0.0.1",
-  "description": "A basic Plasmo extension.",
-  "author": "Plasmo Corp. <foss@plasmo.com>",
+  "description": "Share the location of the mouse",
+  "author": "LHH. <970519495@qq.com>",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
@@ -12,6 +12,7 @@
   "dependencies": {
     "@plasmohq/messaging": "^0.6.2",
     "@plasmohq/storage": "^1.11.0",
+    "ahooks": "^3.8.0",
     "partysocket": "^1.0.1",
     "plasmo": "^0.88.0",
     "react": "18.2.0",
@@ -34,8 +35,9 @@
     "host_permissions": [
       "https://*/*"
     ],
-    "name": "browser-mask",
+    "name": "share-cursor",
     "version": "1.0.0",
+    "description": "共享鼠标的位置",
     "permissions": [
       "activeTab"
     ]

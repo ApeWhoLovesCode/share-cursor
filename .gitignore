@@ -23,7 +23,7 @@ yarn-error.log*
 .env*.local
 
 out/
-build/
+build/chrome-mv3-dev
 dist/
 
 # plasmo

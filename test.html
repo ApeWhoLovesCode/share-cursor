@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .box {
+      margin-inline: auto;
+      width: 90vw;
+      height: 500px;
+      background-color: var(--color);
+    }
   </style>
 </head>
-<body style="background-color: skyblue;">
-  <h1>Hello</h1>
-  <h1>Hello2222222 2333</h1>
+
+<body style="background-color: #434343;color: #fff;">
+  <div class="box" style="--color: black"></div>
+  <div class="box" style="--color: green"></div>
+  <div class="box" style="--color: blue"></div>
+  <div class="box" style="--color: purple"></div>
+  <div class="box" style="--color: skyblue"></div>
+  <div class="box" style="--color: orange"></div>
+  <div class="box" style="--color: red"></div>
 </body>
+
 </html>
